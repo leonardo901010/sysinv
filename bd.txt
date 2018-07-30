@@ -1,0 +1,17 @@
+create database agenda;
+use agenda;
+create table  usuarios (
+id int auto_increment primary key,
+nombre varchar (100),
+apellidos varchar (100),
+tipo_documento varchar (100),
+numero varchar (100),
+email varchar (100),
+telefono varchar (100),
+usser varchar (100),
+contraseña varchar (100)
+)
+
+
+
+CREATE USER 'leonardo'@'localhost' IDENTIFIED WITH mysql_native_password AS '***';GRANT USAGE ON *.* TO 'leonardo'@'localhost' REQUIRE NONE WITH MAX_QUERIES_PER_HOUR 0 MAX_CONNECTIONS_PER_HOUR 0 MAX_UPDATES_PER_HOUR 0 MAX_USER_CONNECTIONS 0;GRANT ALL PRIVILEGES ON `agenda`.* TO 'leonardo'@'localhost';

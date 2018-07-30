@@ -1,0 +1,70 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+body{
+	margin: 0px;
+	background:url('../imagenes/fondo2.jpg')no-repeat;
+	width: 100%;
+	height: 100vh;
+}
+.form-container{
+
+	border:0px solid #fff;
+	padding: 50px 60px;
+	margin-top: 10vh;
+	background: rgba(212,228,239,0.9);
+background: -moz-linear-gradient(left, rgba(212,228,239,0.9) 0%, rgba(134,174,204,0.9) 0%, rgba(134,174,204,0.73) 46%);
+background: -webkit-gradient(left top, right top, color-stop(0%, rgba(212,228,239,0.9)), color-stop(0%, rgba(134,174,204,0.9)), color-stop(46%, rgba(134,174,204,0.73)));
+background: -webkit-linear-gradient(left, rgba(212,228,239,0.9) 0%, rgba(134,174,204,0.9) 0%, rgba(134,174,204,0.73) 46%);
+background: -o-linear-gradient(left, rgba(212,228,239,0.9) 0%, rgba(134,174,204,0.9) 0%, rgba(134,174,204,0.73) 46%);
+background: -ms-linear-gradient(left, rgba(212,228,239,0.9) 0%, rgba(134,174,204,0.9) 0%, rgba(134,174,204,0.73) 46%);
+background: linear-gradient(to right, rgba(212,228,239,0.9) 0%, rgba(134,174,204,0.9) 0%, rgba(134,174,204,0.73) 46%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d4e4ef', endColorstr='#86aecc', GradientType=1 );
+	/*-webkit-box-shadow: -1px 2px 29px 6px rgba(15,9,33,1);
+	-moz-box-shadow: -1px 2px 29px 6px rgba(15,9,33,1);
+	box-shadow: -1px 2px 29px 6px rgba(15,9,33,1);*/
+	border-radius: 5px;
+}
+.boton{
+ 	width: 100%;
+ 	height: 40px;
+    text-decoration: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: helvetica;
+    border:0px; 
+    font-style: italic;
+    color: #fff;
+    background-color: #40B611;
+    border-radius: 5px;  
+}
+.boton:hover{
+    opacity: 0.6;
+    text-decoration: none;
+ }
+.inner-addon {
+	position: relative;
+}
+.inner-addon .glyphicon {
+    position: absolute;
+    padding: 10px;
+    pointer-events: none;
+}
+.left-addon .glyphicon {
+    left: -5px;
+}
+.left-addon input {
+	padding-left: 30px;
+	width:100%;
+	height:35px;
+	margin : 0 auto;
+}
+img{
+	width: 200px;
+	height: 160px;
+	display:block;
+	margin:auto;
+	padding: 20px;
+
+}
